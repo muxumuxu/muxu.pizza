@@ -1,0 +1,81 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  background: #33CC33; }
+
+body {
+  background: url(https://media2.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0; }
+
+h1 {
+  margin-bottom: 0; }
+
+h2 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  font-size: 50px; }
+  h2:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+
+h3 {
+  font-size: 45px; }
+
+p {
+  font-size: 12px;
+  margin-top: 0; }
+
+span {
+  font-size: 80px; }
+
+.emojis {
+  max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.key {
+  -webkit-transition: all 0.07s ease;
+  transition: all 0.07s ease; }
+
+.playing {
+  color: #33CC33; }
+
+@media screen and (max-width: 650px) {
+  body {
+    padding: 10px; }
+
+  h2 {
+    font-size: 25px; }
+
+  span, h3 {
+    font-size: 45px; } }
