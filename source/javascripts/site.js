@@ -1,7 +1,7 @@
 // COUNTDOWN
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sep 28, 2017 19:30:00").getTime();
+var countDownDate = new Date("Oct 31, 2017 20:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -50,3 +50,8 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
+
+// Play sound on load
+
+var audio = new Audio("sounds/halloween_sound.mp3");
+// audio.play();
