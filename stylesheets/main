@@ -20,7 +20,7 @@ body {
   color: #CC5F0B; }
 
 h1 {
-  margin-bottom: 0; }
+  margin: 0; }
 
 h2 {
   transition: all 2s;
