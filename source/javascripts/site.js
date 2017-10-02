@@ -54,4 +54,4 @@ window.addEventListener('keydown', playSound);
 // Play sound on load
 
 var audio = new Audio("sounds/halloween_sound.mp3");
-// audio.play();
+audio.play();
